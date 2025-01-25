@@ -14,6 +14,6 @@ app.get('/', (req, res) => {
     res.send('Index');
 });
 
-app.listen(port, () => {
-    console.log('Server is listening : http://localhost:' + port);
+app.listen(3000, 'http://195.2.85.211', () => {
+    console.log('Тестовый прослушивающий сервер запущен');
 });
